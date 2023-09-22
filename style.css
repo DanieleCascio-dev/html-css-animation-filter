@@ -146,6 +146,20 @@
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation: rotate-quarter 4s infinite linear;
+}
+
+@keyframes rotate-quarter {
+  0% {
+    rotate: 0deg;
+  }
+
+  75% {
+    rotate: 270deg;
+  }
+}
 .ex-12-button,
 .ex-13-button {
   position: relative;
